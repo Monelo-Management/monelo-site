@@ -5,65 +5,101 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Monelo · Mikael Hillman-Pépin</title>
 <meta name="description" content="Je construis des logiciels qui automatisent du vrai travail de bout en bout, avec des vérifications qui prouvent le résultat.">
-<link rel="alternate" hreflang="fr-CA" href="/">
-<link rel="alternate" hreflang="en" href="/en/">
+<link rel="alternate" hreflang="fr-CA" href="https://monelomanagement.com/">
+<link rel="alternate" hreflang="en" href="https://monelomanagement.com/en/">
+<link rel="preload" href="/assets/fonts/montserrat-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/style.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23a2541c'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='18' font-weight='700' fill='white' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="/assets/logo/monelo-app-icon.svg" type="image/svg+xml">
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
-    <a class="mark" href="/">Monelo</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="/"><img src="/assets/logo/monelo-lockup-name.svg" alt="Monelo" width="225" height="44"></a>
     <a class="lang" href="/en/" hreflang="en" lang="en">English</a>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <div class="hero">
-      <h1>Je construis des logiciels qui automatisent du vrai travail de bout en bout, avec des vérifications qui prouvent le résultat.</h1>
-      <p class="sub">Plus efficacement que jamais, grâce à l’orchestration d’agents d’IA.</p>
-      <p class="pitch">J’adore résoudre des problèmes. Apportez-les-moi. Si ça se fait sur un ordinateur, ça peut sûrement s’automatiser.</p>
-    </div>
-
-    <section>
-      <h2>Réalisation</h2>
-      <div class="card">
-        <h3>Market Board</h3>
-        <p>Plutôt que d’avoir à ouvrir une application ou un navigateur, le tableau est simplement là, sur votre bureau, et pendant qu’il tourne, il actualise ses prix environ toutes les 2 minutes pendant les heures de marché.</p>
-        <ul class="facts">
-          <li><strong>≈ 4 semaines</strong> de développement</li>
-          <li><strong>≈ 9 000 lignes</strong> de code, commentaires compris</li>
-          <li><strong>287</strong> vérifications automatisées avant la sortie</li>
-        </ul>
-        <div class="links">
-          <a class="button primary" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3815397645">Gratuit sur le Steam Workshop</a>
-          <a class="button" href="https://www.linkedin.com/feed/update/urn:li:activity:7514048655029387264/" lang="en">La publication (en anglais)</a>
+<main>
+  <div class="hero">
+    <svg class="hero-art" viewBox="0 0 600 850" preserveAspectRatio="xMinYMin slice" aria-hidden="true" focusable="false">
+      <path class="s s1" d="M0,0 L600,440 L600,550 L0,110 Z" fill="#0E3A6D"/>
+      <path class="s s2" d="M0,150 L600,590 L600,700 L0,260 Z" fill="#3E6FB6"/>
+      <path class="s s3" d="M0,300 L600,740 L600,850 L0,410 Z" fill="#9AA4AF"/>
+    </svg>
+    <div class="wrap">
+      <div class="hero-copy">
+        <h1>Je construis des logiciels qui automatisent du vrai travail de bout en bout, avec des vérifications qui prouvent le résultat.</h1>
+        <p class="sub">Plus efficacement que jamais, grâce à l’orchestration d’agents d’IA.</p>
+        <div class="actions">
+          <a class="button" href="mailto:mikael.hp@monelomanagement.com">Écrivez-moi</a>
         </div>
-        <p class="note">Nécessite Wallpaper Engine, un achat unique sur Steam.</p>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <section>
-      <h2>Ma façon de travailler</h2>
+  <div class="band">
+    <div class="wrap">
+      <p>J’adore résoudre des problèmes. Apportez-les-moi. Si ça se fait sur un ordinateur, ça peut sûrement s’automatiser.</p>
+    </div>
+  </div>
+
+  <section class="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <h2 id="work-h">Réalisation</h2>
+      <figure class="plate">
+        <img src="/assets/img/market-board.webp" srcset="/assets/img/market-board-960.webp 960w, /assets/img/market-board.webp 1600w" sizes="(min-width: 1180px) 1068px, 92vw" width="1600" height="900" alt="Market Board en direct : listes de surveillance, graphiques et indicateurs du marché" loading="lazy">
+      </figure>
+      <div class="work-grid">
+        <div>
+          <h3>Market Board</h3>
+          <p>Plutôt que d’avoir à ouvrir une application ou un navigateur, le tableau est simplement là, sur votre bureau, et pendant qu’il tourne, il actualise ses prix environ toutes les 2 minutes pendant les heures de marché.</p>
+          <div class="links">
+            <a class="button" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3815397645">Gratuit sur le Steam Workshop</a>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7514048655029387264/" lang="en">La publication (en anglais)</a>
+          </div>
+          <p class="note">Nécessite Wallpaper Engine, un achat unique sur Steam.</p>
+        </div>
+        <ul class="facts">
+          <li><span class="n">≈ 4 semaines</span><span class="l">de développement</span></li>
+          <li><span class="n">≈ 9 000 lignes</span><span class="l">de code, commentaires compris</span></li>
+          <li><span class="n">287</span><span class="l">vérifications automatisées avant la sortie</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="how" aria-labelledby="how-h">
+    <div class="wrap">
+      <h2 id="how-h">Ma façon de travailler</h2>
       <p>Je peux travailler à distance ou en personne, en français ou en anglais, sur des projets petits comme grands.</p>
-    </section>
+    </div>
+  </section>
 
-    <section class="origin">
-      <h2>D’où ça vient</h2>
-      <p>J’ai toujours dit que mon père est d’une autre trempe. Il n’a presque pas de loisirs et pense toujours au travail ou à sa famille. Aussi loin que je me souvienne, il faisait toujours quelque chose. Il travaillait toujours.</p>
-      <p>Il a pris sa retraite à peu près quand je suis né, mais il n’a jamais arrêté de travailler. Il m’a appris la charpenterie, et j’ai travaillé avec lui. Je pense que le voir travailler autant m’a inspiré, et je le vois maintenant comme un modèle. Il m’a transmis son amour du travail.</p>
-      <p>Bâtir pour les prochaines générations. Lui a bâti des maisons; moi, je bâtis des logiciels d’automatisation pour redonner aux gens leur temps. Je pense que ça revient à avoir un impact positif par le travail acharné.</p>
-    </section>
+  <section class="origin" aria-labelledby="origin-h">
+    <div class="wrap">
+      <h2 id="origin-h">D’où ça vient</h2>
+      <div class="origin-text">
+        <p>J’ai toujours dit que mon père est d’une autre trempe. Il n’a presque pas de loisirs et pense toujours au travail ou à sa famille. Aussi loin que je me souvienne, il faisait toujours quelque chose. Il travaillait toujours.</p>
+        <p>Il a pris sa retraite à peu près quand je suis né, mais il n’a jamais arrêté de travailler. Il m’a appris la charpenterie, et j’ai travaillé avec lui. Je pense que le voir travailler autant m’a inspiré, et je le vois maintenant comme un modèle. Il m’a transmis son amour du travail.</p>
+        <p>Bâtir pour les prochaines générations. Lui a bâti des maisons; moi, je bâtis des logiciels d’automatisation pour redonner aux gens leur temps. Je pense que ça revient à avoir un impact positif par le travail acharné.</p>
+      </div>
+    </div>
+  </section>
 
-    <section class="contact">
-      <h2>Me joindre</h2>
+  <section class="contact" aria-labelledby="contact-h">
+    <div class="wrap">
+      <h2 id="contact-h">Me joindre</h2>
       <p>Un problème à régler? Écrivez-moi.</p>
-      <p><a class="mail" href="mailto:mikael.hp@monelomanagement.com">mikael.hp@monelomanagement.com</a></p>
-    </section>
-  </main>
-
-  <footer>
-    © 2026 Mikael Hillman-Pépin · Ce site n’utilise ni témoins (cookies) ni outil de suivi.
-  </footer>
-</div>
+      <a class="mail-big" href="mailto:mikael.hp@monelomanagement.com">mikael.hp@monelomanagement.com</a>
+      <footer class="site-footer">
+        <img src="/assets/logo/monelo-lockup-name-reverse.svg" alt="Monelo" width="173" height="34">
+        <div>
+          <small>© 2026 Mikael Hillman-Pépin</small>
+          <small>Ce site n’utilise ni témoins (cookies) ni outil de suivi.</small>
+        </div>
+      </footer>
+    </div>
+  </section>
+</main>
 </body>
 </html>
